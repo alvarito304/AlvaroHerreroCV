@@ -1,0 +1,83 @@
+/* Temas */
+body.light-theme {
+    background-color: #f8f9fa; /* Gris claro */
+    color: #343a40; /* Gris oscuro */
+}
+
+body.dark-theme {
+    background-color: #1c1c1e; /* Negro suave */
+    color: #e4e4e7; /* Gris claro */
+}
+
+body.dark-theme .bg-primary {
+    background-color: #7d3cff !important; /* Morado fluorescente */
+}
+
+body.dark-theme .bg-secondary {
+    background-color: #0077b6 !important; /* Azul eléctrico */
+}
+
+body.dark-theme .btn-outline-secondary {
+    border-color: #00f5d4 !important; /* Verde fluorescente */
+    color: #00f5d4 !important;
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+    background-color: #00f5d4 !important;
+    color: #1c1c1e !important;
+}
+
+body.dark-theme .list-group-item {
+    background-color: #333333 !important;
+    color: #e4e4e7 !important;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Línea de tiempo */
+.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.timeline::before {
+    content: '';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: -3px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+}
+
+.timeline li {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.timeline > li::before {
+    content: '';
+    background: #fff;
+    border: 3px solid #7d3cff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: -24px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
+}
+
+#habilidades{
+    list-style-type: none;
+}
+
+#habilidades li {
+    margin-bottom: 0.5rem;
+}
+
