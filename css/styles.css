@@ -81,3 +81,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.contact-info {
+    list-style-type: none;
+}
+
